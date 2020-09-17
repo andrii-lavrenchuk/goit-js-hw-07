@@ -1,0 +1,17 @@
+img {
+  display: inline-flex;
+}
+#gallery {
+  display: flex;
+  justify-content: center;
+}
+#gallery li {
+  margin: 15px;
+  list-style: none;
+  height: 200px;
+}
+img {
+  display: block;
+  height: 100%;
+  width: 300px;
+}
