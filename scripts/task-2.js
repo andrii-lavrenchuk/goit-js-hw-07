@@ -23,5 +23,6 @@ const elements = ingredients.map(name => {
 
   return liEl;
 });
+console.log('elements', elements);
 
 ingredientsEl.append(...elements);
